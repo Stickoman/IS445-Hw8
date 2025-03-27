@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visited Countries</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<h2>Visited Countries Submission</h2>
+
+<input type="text" id="name" placeholder="Enter your name">
+<br><br>
+
+<div id="countries-container">
+    <h3>Visited Countries</h3>
+    <div class="country-input">
+        <input type="text" placeholder="Country Name">
+        <input type="number" placeholder="Year Visited">
+        <button onclick="removeCountry(this)">❌</button>
+    </div>
+</div>
+
+<button onclick="addCountry()">+ Add Another Country</button>
+<button onclick="submitData()">Submit</button>
+
+<script src="../js/ex3.js"></script>
+<br>
+<a href="../index.html">Back to Home</a>
+</body>
+</html>
