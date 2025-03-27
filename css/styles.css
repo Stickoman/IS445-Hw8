@@ -52,12 +52,43 @@ a:hover {
     text-decoration: underline;
 }
 
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 @media (max-width: 768px) {
     table {
         width: 90%;
     }
 
-    th, td {
-        padding: 8px;
+    input[type="text"] {
+        width: 80%;
     }
 }
